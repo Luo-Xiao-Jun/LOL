@@ -1,0 +1,106 @@
+  .tupqi {   /* 轮播总容器 */
+                position: absolute;
+                top: 395px;
+                left: 0px;
+                width: 820px;
+                height: 389px; 
+				
+            }
+            .tu, .tu a {
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            .circle1 {      /* 菜单 */
+                width: 824px;
+                height: 50px;
+                position: absolute;
+				bottom: -2px;
+                cursor: pointer;
+				
+				
+            }
+            .circle1 a {    /* 菜单文字 */
+                width: 164px;
+                height: 45px;
+				float: left;
+				font-size: 14px;
+				background-color: gainsboro;
+			   text-align: center;
+				line-height: 45px;  /* 行高与自身高度一样文字居中显示 */
+            }
+			.circle1 a:hover{  /*   鼠标移到那个位置字体显示金色下划线也是 */
+				color: #B8860B;
+				background-color:white;
+				border-bottom: 1.5px solid #B8860B;  
+				
+			}
+
+
+
+
+
+
+         .box, .box table {   /* 定位置 */
+             position: absolute;
+             top: 16px;
+            right: 2px;
+         }
+		 .box table{	 /* 表格大小 */
+			 width: 550px;
+			 height: 320px;
+		 }
+		 .box table span{   
+			 color: #B8860B;
+			 font-size: 10px;
+			 text-align: center;
+			border:1px solid darkgoldenrod;
+			height: 20px;
+			width: 40px;
+			line-height: 20px; /* 行高等于高时居中 */
+		 }
+		 .box table tr td { 
+			 color: #A9A9A9;
+				  border-bottom: 1.5px solid #DCDCDC;
+		 } 
+		  .box table tr td a{
+			  color: #000000;
+		  }
+		 .box table tr td font:hover{
+			 color: #B8860B;
+		 }
+		 .box table tr td a:hover{
+			 color: #B8860B;
+		 }
+         .circle{   /* 头部定位置 */
+         	position: absolute;
+         	top: 0px;
+         	left: 0px;
+         	width: 550px;
+         	height: 41px;  
+			 border-bottom: 1.5px solid #A9A9A9;  
+         }
+         .circle b{   
+         	display: inline-block;  /* 显示为行块 */
+         	width: 104px;
+         	height: 40px;
+			text-align: center;
+			line-height: 40px;
+			color:black;
+			
+         }
+		 .circle b:hover{ /* 鼠标移上去显示颜色 */
+			 color: #00FFFF;
+			 border-bottom: 2px solid #00FFFF;  
+		 }
+		 .button{
+			width: 550px;
+			height: 40px;
+			position: absolute;
+			top: 350px;
+			background-color: #DCDCDC;
+			border:0px solid #DCDCDC;  
+		 }
+		 .button:hover{
+			 background-color: grey;
+		 }
